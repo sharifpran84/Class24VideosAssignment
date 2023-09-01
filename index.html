@@ -5,11 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Finix</title>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
 
-        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css" />
-
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" integrity="sha512-X/RSQYxFb/tvuz6aNRTfKXDnQzmnzoawgEQ4X8nZNftzs8KFFH23p/BA6D2k0QCM4R0sY1DEy9MIY9b3fwi+bg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <link rel="stylesheet" href="style.css">
     </head>
@@ -131,57 +132,120 @@
             </section>
         </header>
         <!-- owl carosel Section -->
-        <section class="py-5 mt-2">
+        <section class="py-5 my-3">
           <div class="container">
-            <div class="owl-carousel">
-              <div class="item">
-                <img src="./Image/image1.png" alt="">
-              </div>
-              <div class="item">
-                <img src="./Image/image2.png" alt="">
-              </div>
-              <div class="item">
-                <img src="./Image/image3.png" alt="">
-              </div>
-              <div class="item">
-                <img src="./Image/image4.png" alt="">
-              </div>
-              <div class="item">
-                <img src="./Image/image5.png" alt="">
-              </div>
-              <div class="item">
-                <img src="./Image/image5.png" alt="">
-              </div>
-              <div class="item">
-                <img src="./Image/image5.png" alt="">
-              </div>
-              <div class="item">
-                <img src="./Image/image5.png" alt="">
-              </div>
+            <div class="owl-carousel owl-loaded owl-drag">
+                <div class="item"><img src="./Image/image1.png" alt=""></div>
+                <div class="item"><img src="./Image/image2.png" alt=""></div>
+                <div class="item"><img src="./Image/image3.png" alt=""></div>
+                <div class="item"><img src="./Image/image4.png" alt=""></div>
+                <div class="item"><img src="./Image/image5.png" alt=""></div>
             </div>
           </div>
         </section>
+        <hr>
 
         <!-- About Company -->
-        <section>
+        <section class="py-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 aboutImage">
                         <img src="./Image/image32.png" alt="">
+                        <div class="imgContent text-center d-flex align-items-center justify-content-center">
+                            <div class="imgText">
+                                <h1>25</h1>
+                            <h4>Years Of Experience</h4>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-lg-6">
-                        <h6>About Company</h6>
+                        <div class="about">
+                            <h6>About Company</h6>
                         <h2>We have been working very efficiently with loan and funding for 25 years.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. <span></span></p>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                        <h5 class="lead">In business, we focus on 3 things.</h5>
+                        <ul>
+                            <li>Useful info</li>
+                            <li>Reliability</li>
+                            <li>Innovatibtn</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">View more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- transparent section -->
+        <section class="py-5 bg-gray">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-lg-6">
+                        <div class="about">
+                        <h6>Transparent process</h6>
+                        <h2>Why people choose us</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        </div>
+                        <div class="transparent-theam">
+                            <img src="./Image/choose.png" alt="">
+                            <div class="transparentIcon d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="card p-lg-5 text-center border-0 mb-4 mt-4">
+                                    <div class="card-icon">
+                                        <i class="fa-duotone fa-hundred-points"></i>
+                                    </div>
+                                    <h1>Guarantee</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card p-lg-5 text-center border-0 mb-4">
+                                    <div class="card-icon">
+                                        <i class="fa-light fa-gauge"></i>
+                                    </div>
+                                    <h1>speed</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-6">
+                                <div class="card p-lg-5 text-center border-0 mb-4">
+                                    <div class="card-icon">
+                                        <i class="fa-solid fa-mosque"></i>
+                                    </div>
+                                    <h1>Reliability</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card p-lg-5 text-center border-0 mb-4 marginTop">
+                                    <div class="card-icon">
+                                        <i class="fa-solid fa-rocket-launch"></i>
+                                    </div>
+                                    <h1>Experience</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
         <script src="custom.js"></script>
         
